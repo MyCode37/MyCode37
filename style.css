@@ -76,13 +76,19 @@ a{
    align-items: center;
 }
 .taxt{
-    color: #fff;
-    width: 90%;
-    display: flex;
+    color: azure;
+    width:64vw;
+     display: flex;
     justify-content: space-between;
-    border: 1px solid #144848;
 }
-
+.taxt p{
+    height: 10vh;
+    border-bottom: 1px solid azure;
+}
+.taxt h3{
+    color: #fff;
+    font-size: 0.9em;
+}
 .input{
     display: grid ;
    grid-template-columns:  3fr 1fr;
