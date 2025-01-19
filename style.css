@@ -216,6 +216,14 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
+.footer{
+    background-color: rgb(82, 249, 166);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .social-media{
     width: 100%;
@@ -232,3 +240,54 @@ footer p{
 span{
     color: #023c24;
 }
+.container1{
+    height: 180vh;
+    display: flex ;
+   justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border: #670318 1px solid;
+}
+.cards1{
+    
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.card1{
+    
+    margin-bottom: 10%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4px;
+    width: 80%;
+    position: relative;
+}
+.span-img{
+    position: absolute;
+    top: 0;
+    left: 21%;
+    background-color: aliceblue;
+}
+.card1 img{
+    width: 50%;
+}
+.card1 span{
+    display: block;
+}
+.card1 p{
+    width: 40%;
+   font-size: 0.8em;
+    text-align: center;
+}
+.card1 a {
+    margin-top: 4px;
+    color: #111;
+    width: 15%;
+    border-bottom: 1px solid #112;
+}
+
